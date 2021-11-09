@@ -34,7 +34,7 @@ def main():
         for x in res(inf(url)):
         ids.add(x['message']['chat']['id'])
         for id in ids:
-            sendmessage(id, 'НАВАЛЬНЫЙ 20!8')
+            sendmessage(id, 'Knock')
             sleep(0.001)
 
 main()
